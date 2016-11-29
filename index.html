@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+     <title>Check if Prime number</title>
+     </head>
+
+ <body>
+
+ 		<h1>Adding all the elements in an array</h1>
+
+ <script>
+function addArray() {
+var array = ["1", "2", "3", "4", "10", "11"]
+var sum = 0;
+
+for (var i = 0; i < array.length; i++) {
+	var numbers = (Number(array[i]));
+	var result = sum += numbers;
+}
+
+return result;
+}
+
+
+var secondArray = [1, 2, 3, 4, 10, 11]
+var added = secondArray.reduce((total, sum) => total + sum, 0)
+</script>
+</body>
+</html>
